@@ -1,0 +1,20 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+.appbar button{
+	display: none !important;
+}
+.element{
+	height:700px
+}
+#container{
+    margin-left: 256px;
+     width: auto;
+     position: relative;
+     /*background: #f00;*/
+     overflow: auto;
+}
+/*#sidebar-width{
+    width: 256px;
+}*/
