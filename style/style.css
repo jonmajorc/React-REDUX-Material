@@ -2,6 +2,10 @@ html, body{
     margin:0;
     padding:0;
 }
+#the-sticky-div.sticky {
+   position: fixed;
+   top: 0;
+}
 .appbar button{
 	display: none !important;
 }
