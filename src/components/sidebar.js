@@ -33,7 +33,6 @@ export default class SideBar extends React.Component {
     Events.scrollEvent.remove('begin');
     Events.scrollEvent.remove('end');
   }
-
   scrollToTop() {
     scroll.scrollToTop();
   }
@@ -55,27 +54,27 @@ export default class SideBar extends React.Component {
       <div>
         <Drawer open={this.state.open}>
           <AppBar className='appbar' title="My AppBar"/>
-          <Link activeClass="active" className="Link" to="test1" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="test1" spy={true} smooth={true} offset={0} duration={500}>
             <MenuItem>
               Test 1
             </MenuItem>
           </Link>
-          <Link className="Link" to="test2" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="test2" spy={true} smooth={true} offset={0} duration={500}>
             <MenuItem>
               Test 2
             </MenuItem>
           </Link>
-          <Link className="Link" to="test3" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="test3" spy={true} smooth={true} offset={0} duration={500}>
             <MenuItem>
               Test 3
             </MenuItem>
           </Link>
-          <Link className="Link" to="test4" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="test4" spy={true} smooth={true} offset={0} duration={500}>
             <MenuItem>
               Test 4
             </MenuItem>
           </Link>
-          <Link className="Link" to="test5" spy={true} smooth={true} offset={0} duration={500}>
+          <Link activeClass="active" to="test5" spy={true} smooth={true} offset={0} duration={500}>
             <MenuItem>
               Test 5
             </MenuItem>
