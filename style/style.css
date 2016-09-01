@@ -2,7 +2,7 @@ html, body{
     margin:0;
     padding:0;
 }
-#the-sticky-div.sticky {
+#sticky {
    position: fixed;
    top: 0;
 }
@@ -18,6 +18,16 @@ html, body{
      position: relative;
      /*background: #f00;*/
      overflow: auto;
+}
+.Link{
+    display: block;
+}
+.active{
+    background-color: #ccc
+}
+.stick{
+    position: fixed !important;
+    top:0 !important;
 }
 /*#sidebar-width{
     width: 256px;
