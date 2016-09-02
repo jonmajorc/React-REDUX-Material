@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {brown700} from 'material-ui/styles/colors';
+import {cyan500} from 'material-ui/styles/colors';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AppBar from 'material-ui/AppBar';
@@ -9,11 +9,11 @@ import Main from './main'
 
 const muiTheme = getMuiTheme({
   palette: {
-    color: brown700
+    color: cyan500
   },
   appBar: {
     height: 75,
-    color: brown700
+    color: cyan500
   }
 });
 

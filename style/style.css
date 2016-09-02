@@ -29,6 +29,10 @@ html, body{
     position: fixed !important;
     top:0 !important;
 }
+
+#section-1{
+    margin-top: -4px;
+}
 /*#sidebar-width{
     width: 256px;
 }*/
